@@ -1,0 +1,1150 @@
+﻿Log file open, 05/31/17 16:19:27
+LogInit:Display: Running engine for game: Enviro1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1319750774) SRandInit(-1319750774).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075261
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.31-22.19.28:336][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.31-22.19.28:336][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.31-22.19.28:349][  0]LogInit: Computer: ASUS-G752VT
+[2017.05.31-22.19.28:349][  0]LogInit: User: azure
+[2017.05.31-22.19.28:349][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.31-22.19.28:349][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2017.05.31-22.19.28:349][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.05.31-22.19.28:349][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.31-22.19.28:349][  0]LogMemory: Process Physical Memory: 262.43 MB used, 262.43 MB peak
+[2017.05.31-22.19.28:349][  0]LogMemory: Process Virtual Memory: 262.59 MB used, 262.59 MB peak
+[2017.05.31-22.19.28:349][  0]LogMemory: Physical Memory: 6269.50 MB used,  18244.88 MB free, 24514.38 MB total
+[2017.05.31-22.19.28:349][  0]LogMemory: Virtual Memory: 644.97 MB used,  18244.88 MB free, 134217728.00 MB total
+[2017.05.31-22.19.28:665][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.31-22.19.29:256][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.31-22.19.29:291][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M ' (Feature Level 11_0)
+[2017.05.31-22.19.29:291][  0]LogD3D11RHI:       6051/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.31-22.19.29:293][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.31-22.19.29:293][  0]LogD3D11RHI:       0/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.31-22.19.29:293][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.31-22.19.29:297][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.31-22.19.29:297][  0]LogD3D11RHI:     GPU DeviceId: 0x1618 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.31-22.19.29:297][  0]LogWindows: EnumDisplayDevices:
+[2017.05.31-22.19.29:297][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970M ' (P:1 D:1)
+[2017.05.31-22.19.29:297][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.05.31-22.19.29:298][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.05.31-22.19.29:298][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M ' (P:0 D:0)
+[2017.05.31-22.19.29:298][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.31-22.19.29:298][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M 
+[2017.05.31-22.19.29:298][  0]LogD3D11RHI:   Driver Version: 353.62 (internal:10.18.13.5362, unified:353.62)
+[2017.05.31-22.19.29:298][  0]LogD3D11RHI:      Driver Date: 7-22-2015
+[2017.05.31-22.19.29:298][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.31-22.19.29:312][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.05.31-22.19.29:313][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.31-22.19.29:313][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.31-22.19.29:829][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.31-22.19.29:831][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Intermediate/Shaders/WorkingDirectory/9772/).
+[2017.05.31-22.19.29:831][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/azure/AppData/Local/Temp/UnrealShaderWorkingDir/26E5B00D4F70DD53FA1677AD92AC3104/'.
+[2017.05.31-22.19.29:831][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.31-22.19.30:876][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.31-22.19.30:927][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.31-22.19.30:978][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.31-22.19.31:027][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.31-22.19.31:078][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.31-22.19.31:128][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.31-22.19.31:189][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.31-22.19.31:246][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.31-22.19.31:304][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.31-22.19.31:363][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.31-22.19.31:419][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.31-22.19.31:471][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.31-22.19.31:529][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.31-22.19.31:581][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.31-22.19.31:631][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.31-22.19.31:731][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.31-22.19.31:731][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.31-22.19.31:766][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.31-22.19.31:859][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.31-22.19.31:892][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.31-22.19.31:942][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.31-22.19.31:991][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.31-22.19.32:040][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.31-22.19.32:088][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.31-22.19.32:088][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.31-22.19.32:484][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.31-22.19.32:531][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/azure/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.31-22.19.32:531][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/azure/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.31-22.19.32:531][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.31-22.19.32:531][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.31-22.19.32:531][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.31-22.19.32:531][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.31-22.19.32:548][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.31-22.19.32:561][  0]LogDerivedDataCache: Using Local data cache path C:/Users/azure/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.31-22.19.32:570][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.31-22.19.32:571][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.31-22.19.32:571][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.31-22.19.32:832][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.31-22.19.32:835][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.31-22.19.33:022][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.31-22.19.33:062][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.31-22.19.33:103][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.31-22.19.33:103][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.31-22.19.33:103][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.31-22.19.33:621][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: enviro1, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2937792213
+[2017.05.31-22.19.33:666][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.05.31-22.19.33:719][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.031443 seconds
+[2017.05.31-22.19.33:725][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.31-22.19.33:725][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.31-22.19.33:725][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.31-22.19.33:786][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.31-22.19.35:429][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.05.31-22.19.35:457][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.31-22.19.35:493][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.31-22.19.35:918][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.31-22.19.36:262][  0]SourceControl: Info Source control is disabled
+[2017.05.31-22.19.36:263][  0]SourceControl: Info Source control is disabled
+[2017.05.31-22.19.36:310][  0]SourceControl: Info Source control is disabled
+[2017.05.31-22.19.36:354][  0]SourceControl: Info Source control is disabled
+[2017.05.31-22.19.37:523][  0]LogEngine: Initializing Engine...
+[2017.05.31-22.19.37:523][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.31-22.19.37:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.31-22.19.37:630][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.31-22.19.37:741][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.31-22.19.37:751][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.05.31-22.19.37:827][  0]LogInit: FAudioDevice initialized.
+[2017.05.31-22.19.37:852][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/azure/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.31-22.19.37:858][  0]LogInit: Texture streaming: Enabled
+[2017.05.31-22.19.37:948][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.31-22.19.38:030][  0]LogInit: Transaction tracking system initialized
+[2017.05.31-22.19.38:353][  0]BlueprintLog: New page: Editor Load
+[2017.05.31-22.19.39:182][  0]LocalizationService: Info Localization service is disabled
+[2017.05.31-22.19.39:790][  0]LogConsoleResponse:Display: 
+[2017.05.31-22.19.39:918][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.31-22.19.39:918][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.31-22.19.40:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/' took 0.01s
+[2017.05.31-22.19.40:865][  0]SourceControl: Info Source control is disabled
+[2017.05.31-22.19.40:865][  0]Cmd: MAP LOAD FILE="../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.31-22.19.40:865][  0]LightingResults: New page: Lighting Build
+[2017.05.31-22.19.40:903][  0]MapCheck: New page: Map Check
+[2017.05.31-22.19.40:903][  0]LightingResults: New page: Lighting Build
+[2017.05.31-22.19.41:019][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.05.31-22.19.41:019][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.05.31-22.19.41:020][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.05.31-22.19.41:034][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.05.31-22.19.41:034][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.05.31-22.19.41:034][  0]LoadErrors:Error: Error /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2017.05.31-22.19.41:041][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.05.31-22.19.41:041][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.05.31-22.19.41:041][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.05.31-22.19.41:041][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.05.31-22.19.41:050][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2017.05.31-22.19.41:050][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.05.31-22.19.41:050][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2017.05.31-22.19.41:050][  0]LoadErrors: Info Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2017.05.31-22.19.41:201][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.31-22.19.41:225][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.31-22.19.41:226][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.31-22.19.41:265][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.539ms to complete.
+[2017.05.31-22.19.41:265][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.401
+[2017.05.31-22.19.41:331][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.31-22.19.41:458][  0]LogCollectionManager: Loaded 0 collections in 0.001485 seconds
+[2017.05.31-22.19.41:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/Collections/' took 0.01s
+[2017.05.31-22.19.41:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Developers/azure/Collections/' took 0.01s
+[2017.05.31-22.19.41:540][  0]LogFileCache: Scanning file cache for directory 'C:/Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Collections/' took 0.01s
+[2017.05.31-22.19.41:540][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.31-22.19.41:549][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2259 classes and 459 folders.
+[2017.05.31-22.19.41:617][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.31-22.19.41:652][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.31-22.19.41:693][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.31-22.19.41:740][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.31-22.19.41:748][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.31-22.19.41:812][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.31-22.19.41:812][  0]LogLoad: (Engine Initialization) Total time: 15.23 seconds
+[2017.05.31-22.19.41:812][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.05.31-22.19.41:812][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.31-22.19.41:830][  0]LogOcInput: OculusInput pre-init called
+[2017.05.31-22.19.41:849][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.31-22.19.41:865][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.31-22.19.41:869][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.31-22.19.41:874][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.31-22.19.42:036][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:2).
+[2017.05.31-22.19.42:113][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.31-22.19.42:208][  1]LogAssetRegistry: Asset discovery search completed in 8.5648 seconds
+[2017.05.31-22.19.42:208][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.05.31-22.19.42:208][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.05.31-22.19.56:061][439]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.19.56:062][439]LogTemp:Display: Added material ShaderMap 0x000002A103878F00 with Material 0x000002A103830A00 to ShaderMapsBeingCompiled
+[2017.05.31-22.19.56:095][439]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A103878F00
+[2017.05.31-22.19.59:082][511]LogTemp:Display: Finished compile of shader map 0x000002A103878F00
+[2017.05.31-22.19.59:082][511]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A103878F00, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.19.59:082][511]LogTemp:Display: Marking material as finished 0x000002A103830A00
+[2017.05.31-22.20.11:201][672]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.31-22.20.11:235][672]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\azure\Desktop\textures\Decals\basestain1.png)
+[2017.05.31-22.20.11:277][672]LogTexture:Display: Building textures: basestain1 (AutoDXT, 1024X1024) - 162 MB total VRAM
+[2017.05.31-22.20.28:980][461]LogSavePackage: Save=147.08ms
+[2017.05.31-22.20.28:980][461]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/tex_decal_stain_02499A3841471D9512B930048FC41CB93B.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/Textures/tex_decal_stain_02.uasset'
+[2017.05.31-22.20.28:986][461]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/Textures/tex_decal_stain_02.uasset
+[2017.05.31-22.20.36:378][756]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.20.36:379][756]LogTemp:Display: Added material ShaderMap 0x000002A163EB4F00 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.36:391][756]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A163EB4F00
+[2017.05.31-22.20.36:461][756]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.20.36:462][756]LogTemp:Display: Added material ShaderMap 0x000002A105233900 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.36:475][756]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A105233900
+[2017.05.31-22.20.36:475][756]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.20.36:504][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.05.31-22.20.36:505][756]LogTemp:Display: Added material ShaderMap 0x000002A102768800 with Material 0x000002A115883A00 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.36:508][756]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000002A102768800
+[2017.05.31-22.20.36:510][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.05.31-22.20.36:510][756]LogTemp:Display: Added material ShaderMap 0x000002A163F6C100 with Material 0x000002A115881600 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.36:513][756]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x000002A163F6C100
+[2017.05.31-22.20.36:514][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.05.31-22.20.36:515][756]LogTemp:Display: Added material ShaderMap 0x000002A1156AE780 with Material 0x000002A115881300 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.36:517][756]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_1, GameThreadShaderMap 0x000002A1156AE780
+[2017.05.31-22.20.36:519][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.05.31-22.20.36:520][756]LogTemp:Display: Added material ShaderMap 0x000002A1156ACF00 with Material 0x000002A163FAD900 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.36:523][756]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x000002A1156ACF00
+[2017.05.31-22.20.36:532][756]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.31-22.20.38:315][777]LogTemp:Display: Finished compile of shader map 0x000002A105233900
+[2017.05.31-22.20.38:315][777]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A105233900, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.20.38:315][777]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.20.38:416][778]LogTemp:Display: Finished compile of shader map 0x000002A102768800
+[2017.05.31-22.20.38:416][778]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000002A102768800, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.05.31-22.20.38:416][778]LogTemp:Display: Marking material as finished 0x000002A115883A00
+[2017.05.31-22.20.38:525][779]LogTemp:Display: Finished compile of shader map 0x000002A163F6C100
+[2017.05.31-22.20.38:525][779]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x000002A163F6C100, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.05.31-22.20.38:525][779]LogTemp:Display: Marking material as finished 0x000002A115881600
+[2017.05.31-22.20.38:527][779]LogTemp:Display: Finished compile of shader map 0x000002A1156AE780
+[2017.05.31-22.20.38:527][779]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_1 complete, GameThreadShaderMap 0x000002A1156AE780, marking material FMatExpressionPreview MaterialExpressionTextureSample_1 as finished
+[2017.05.31-22.20.38:527][779]LogTemp:Display: Marking material as finished 0x000002A115881300
+[2017.05.31-22.20.38:632][780]LogTemp:Display: Finished compile of shader map 0x000002A1156ACF00
+[2017.05.31-22.20.38:632][780]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x000002A1156ACF00, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
+[2017.05.31-22.20.38:632][780]LogTemp:Display: Marking material as finished 0x000002A163FAD900
+[2017.05.31-22.20.41:870][969]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.20.41:871][969]LogTemp:Display: Added material ShaderMap 0x000002A1156AF200 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.41:883][969]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A1156AF200
+[2017.05.31-22.20.41:884][969]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (3 / 0)
+[2017.05.31-22.20.41:884][969]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.20.43:568][ 14]LogTemp:Display: Finished compile of shader map 0x000002A1156AF200
+[2017.05.31-22.20.43:568][ 14]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A1156AF200, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.20.43:568][ 14]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.20.50:499][180]LogSavePackage: Save=77.63ms
+[2017.05.31-22.20.50:499][180]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/Minimal_Default70742D8047DD0A0A8CE1E4BF14B663C5.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.05.31-22.20.50:502][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.05.31-22.20.53:629][267]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.20.53:630][267]LogTemp:Display: Added material ShaderMap 0x000002A1157AC480 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.53:643][267]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A1157AC480
+[2017.05.31-22.20.53:643][267]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.20.53:644][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.05.31-22.20.53:645][267]LogTemp:Display: Added material ShaderMap 0x000002A115896080 with Material 0x000002A11C31CD00 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.53:647][267]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x000002A115896080
+[2017.05.31-22.20.53:653][267]LogTemp:Display: Removed shader map 0x000002A115896080 from material 0x000002A11C31CD00
+[2017.05.31-22.20.53:677][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.05.31-22.20.53:677][267]LogTemp:Display: Added material ShaderMap 0x000002A11BF5E780 with Material 0x000002A116479300 to ShaderMapsBeingCompiled
+[2017.05.31-22.20.53:680][267]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x000002A11BF5E780
+[2017.05.31-22.20.55:166][329]LogTemp:Display: Finished compile of shader map 0x000002A1157AC480
+[2017.05.31-22.20.55:166][329]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A1157AC480, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.20.55:166][329]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.20.55:199][330]LogTemp:Display: Finished compile of shader map 0x000002A11BF5E780
+[2017.05.31-22.20.55:199][330]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x000002A11BF5E780, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.05.31-22.20.55:199][330]LogTemp:Display: Marking material as finished 0x000002A116479300
+[2017.05.31-22.21.08:761][667]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.08:762][667]LogTemp:Display: Added material ShaderMap 0x000002A11BF76080 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.08:774][667]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11BF76080
+[2017.05.31-22.21.08:775][667]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.08:776][667]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.31-22.21.08:777][667]LogTemp:Display: Added material ShaderMap 0x000002A11C1F1280 with Material 0x000002A11C33B400 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.08:779][667]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002A11C1F1280
+[2017.05.31-22.21.10:330][698]LogTemp:Display: Finished compile of shader map 0x000002A11BF76080
+[2017.05.31-22.21.10:330][698]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11BF76080, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.10:330][698]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.10:369][699]LogTemp:Display: Finished compile of shader map 0x000002A11C1F1280
+[2017.05.31-22.21.10:369][699]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002A11C1F1280, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.31-22.21.10:369][699]LogTemp:Display: Marking material as finished 0x000002A11C33B400
+[2017.05.31-22.21.11:227][722]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.11:227][722]LogTemp:Display: Added material ShaderMap 0x000002A122D96400 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.11:240][722]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A122D96400
+[2017.05.31-22.21.11:240][722]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.11:268][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.31-22.21.11:269][722]LogTemp:Display: Added material ShaderMap 0x000002A122D8F580 with Material 0x000002A116479900 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.11:271][722]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002A122D8F580
+[2017.05.31-22.21.12:773][744]LogTemp:Display: Finished compile of shader map 0x000002A122D96400
+[2017.05.31-22.21.12:773][744]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A122D96400, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.12:773][744]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.12:775][744]LogTemp:Display: Finished compile of shader map 0x000002A122D8F580
+[2017.05.31-22.21.12:775][744]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002A122D8F580, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.31-22.21.12:775][744]LogTemp:Display: Marking material as finished 0x000002A116479900
+[2017.05.31-22.21.13:299][753]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.13:300][753]LogTemp:Display: Added material ShaderMap 0x000002A122D94F00 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.13:313][753]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A122D94F00
+[2017.05.31-22.21.13:313][753]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.13:341][753]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.31-22.21.13:342][753]LogTemp:Display: Added material ShaderMap 0x000002A11C1F1280 with Material 0x000002A102789C00 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.13:345][753]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002A11C1F1280
+[2017.05.31-22.21.14:902][780]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.14:903][780]LogTemp:Display: Added material ShaderMap 0x000002A122D97900 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.14:918][780]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A122D97900
+[2017.05.31-22.21.14:918][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.14:924][780]LogTemp:Display: Removed shader map 0x000002A11C1F1280 from material 0x000002A102789C00
+[2017.05.31-22.21.14:947][780]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.31-22.21.14:948][780]LogTemp:Display: Added material ShaderMap 0x000002A11C056B00 with Material 0x000002A11C270A00 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.14:951][780]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002A11C056B00
+[2017.05.31-22.21.14:957][780]LogTemp:Display: Finished compile of shader map 0x000002A122D94F00
+[2017.05.31-22.21.14:957][780]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A122D94F00, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.14:957][780]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.14:958][780]LogTemp:Display: Finished compile of shader map 0x000002A11C1F1280
+[2017.05.31-22.21.16:416][805]LogTemp:Display: Finished compile of shader map 0x000002A122D97900
+[2017.05.31-22.21.16:416][805]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A122D97900, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.16:416][805]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.16:448][806]LogTemp:Display: Finished compile of shader map 0x000002A11C056B00
+[2017.05.31-22.21.16:448][806]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002A11C056B00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.31-22.21.16:448][806]LogTemp:Display: Marking material as finished 0x000002A11C270A00
+[2017.05.31-22.21.16:526][807]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.16:527][807]LogTemp:Display: Added material ShaderMap 0x000002A11C056080 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.16:539][807]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11C056080
+[2017.05.31-22.21.16:540][807]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.16:570][807]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.31-22.21.16:570][807]LogTemp:Display: Added material ShaderMap 0x000002A1163D7900 with Material 0x000002A11C270A00 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.16:573][807]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002A1163D7900
+[2017.05.31-22.21.18:040][845]LogTemp:Display: Finished compile of shader map 0x000002A11C056080
+[2017.05.31-22.21.18:040][845]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11C056080, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.18:040][845]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.18:103][849]LogTemp:Display: Finished compile of shader map 0x000002A1163D7900
+[2017.05.31-22.21.18:103][849]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002A1163D7900, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.31-22.21.18:103][849]LogTemp:Display: Marking material as finished 0x000002A11C270A00
+[2017.05.31-22.21.20:341][927]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.20:341][927]LogTemp:Display: Added material ShaderMap 0x000002A12339D980 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.20:355][927]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A12339D980
+[2017.05.31-22.21.20:355][927]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.20:356][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.31-22.21.20:357][927]LogTemp:Display: Added material ShaderMap 0x000002A11C409280 with Material 0x000002A11006FD00 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.20:359][927]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000002A11C409280
+[2017.05.31-22.21.20:366][927]LogTemp:Display: Removed shader map 0x000002A11C409280 from material 0x000002A11006FD00
+[2017.05.31-22.21.20:368][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.31-22.21.20:369][927]LogTemp:Display: Added material ShaderMap 0x000002A11BF5DD00 with Material 0x000002A10278BD00 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.20:371][927]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000002A11BF5DD00
+[2017.05.31-22.21.20:407][927]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.20:408][927]LogTemp:Display: Added material ShaderMap 0x000002A122D62780 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.20:423][927]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A122D62780
+[2017.05.31-22.21.20:423][927]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.20:481][928]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.31-22.21.20:533][931]LogTemp:Display: Finished compile of shader map 0x000002A12339D980
+[2017.05.31-22.21.20:533][931]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A12339D980, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.20:533][931]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.20:716][942]LogTemp:Display: Finished compile of shader map 0x000002A11BF5DD00
+[2017.05.31-22.21.20:716][942]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000002A11BF5DD00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.31-22.21.20:716][942]LogTemp:Display: Marking material as finished 0x000002A10278BD00
+[2017.05.31-22.21.22:124][950]LogTemp:Display: Finished compile of shader map 0x000002A122D62780
+[2017.05.31-22.21.22:124][950]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A122D62780, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.22:124][950]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.27:905][129]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.27:906][129]LogTemp:Display: Added material ShaderMap 0x000002A105708B80 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.27:919][129]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A105708B80
+[2017.05.31-22.21.27:919][129]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.27:921][129]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.27:922][129]LogTemp:Display: Added material ShaderMap 0x000002A11020D600 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.27:936][129]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11020D600
+[2017.05.31-22.21.27:936][129]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.27:965][129]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.05.31-22.21.27:966][129]LogTemp:Display: Added material ShaderMap 0x000002A101409600 with Material 0x000002A11BEB3700 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.27:968][129]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_0, GameThreadShaderMap 0x000002A101409600
+[2017.05.31-22.21.29:492][182]LogTemp:Display: Finished compile of shader map 0x000002A11020D600
+[2017.05.31-22.21.29:492][182]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11020D600, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.29:492][182]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.29:529][183]LogTemp:Display: Finished compile of shader map 0x000002A101409600
+[2017.05.31-22.21.29:529][183]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_0 complete, GameThreadShaderMap 0x000002A101409600, marking material FMatExpressionPreview MaterialExpressionVectorParameter_0 as finished
+[2017.05.31-22.21.29:529][183]LogTemp:Display: Marking material as finished 0x000002A11BEB3700
+[2017.05.31-22.21.31:892][254]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.31:893][254]LogTemp:Display: Added material ShaderMap 0x000002A122D62400 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.31:906][254]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A122D62400
+[2017.05.31-22.21.31:906][254]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.31:932][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.05.31-22.21.31:933][254]LogTemp:Display: Added material ShaderMap 0x000002A11020D600 with Material 0x000002A11C271F00 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.31:935][254]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x000002A11020D600
+[2017.05.31-22.21.33:539][274]LogTemp:Display: Finished compile of shader map 0x000002A11020D600
+[2017.05.31-22.21.33:539][274]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x000002A11020D600, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.05.31-22.21.33:539][274]LogTemp:Display: Marking material as finished 0x000002A11C271F00
+[2017.05.31-22.21.33:543][274]LogTemp:Display: Finished compile of shader map 0x000002A122D62400
+[2017.05.31-22.21.33:543][274]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A122D62400, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.33:543][274]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.35:699][322]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.35:700][322]LogTemp:Display: Added material ShaderMap 0x000002A11020C480 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.35:713][322]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11020C480
+[2017.05.31-22.21.35:713][322]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.37:488][348]LogTemp:Display: Finished compile of shader map 0x000002A11020C480
+[2017.05.31-22.21.37:488][348]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11020C480, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.37:488][348]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.45:406][443]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.45:407][443]LogTemp:Display: Added material ShaderMap 0x000002A11BF6BC80 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.45:421][443]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11BF6BC80
+[2017.05.31-22.21.45:421][443]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.46:969][479]LogTemp:Display: Finished compile of shader map 0x000002A11BF6BC80
+[2017.05.31-22.21.46:969][479]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11BF6BC80, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.46:969][479]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.47:631][491]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.47:632][491]LogTemp:Display: Added material ShaderMap 0x000002A102EFEE80 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.47:645][491]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A102EFEE80
+[2017.05.31-22.21.47:645][491]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.47:656][491]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.47:657][491]LogTemp:Display: Added material ShaderMap 0x000002A122D60800 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.47:676][491]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A122D60800
+[2017.05.31-22.21.47:676][491]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.47:847][498]LogTemp:Display: Finished compile of shader map 0x000002A102EFEE80
+[2017.05.31-22.21.47:847][498]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A102EFEE80, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.47:847][498]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.49:440][529]LogTemp:Display: Finished compile of shader map 0x000002A122D60800
+[2017.05.31-22.21.49:440][529]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A122D60800, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.49:440][529]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.21.56:033][781]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.21.56:034][781]LogTemp:Display: Added material ShaderMap 0x000002A1002F0800 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.21.56:046][781]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A1002F0800
+[2017.05.31-22.21.56:047][781]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.21.57:588][858]LogTemp:Display: Finished compile of shader map 0x000002A1002F0800
+[2017.05.31-22.21.57:588][858]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A1002F0800, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.21.57:588][858]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.06:132][ 97]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.06:132][ 97]LogTemp:Display: Added material ShaderMap 0x000002A10195CF00 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.06:146][ 97]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A10195CF00
+[2017.05.31-22.22.06:146][ 97]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.06:149][ 97]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.06:150][ 97]LogTemp:Display: Added material ShaderMap 0x000002A102649280 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.06:163][ 97]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A102649280
+[2017.05.31-22.22.06:164][ 97]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.07:749][163]LogTemp:Display: Finished compile of shader map 0x000002A102649280
+[2017.05.31-22.22.07:749][163]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A102649280, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.07:749][163]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.08:798][189]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.08:799][189]LogTemp:Display: Added material ShaderMap 0x000002A102EFE080 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.08:812][189]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A102EFE080
+[2017.05.31-22.22.08:812][189]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.08:840][189]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.05.31-22.22.08:841][189]LogTemp:Display: Added material ShaderMap 0x000002A101173580 with Material 0x000002A102624400 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.08:844][189]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x000002A101173580
+[2017.05.31-22.22.10:548][206]LogTemp:Display: Finished compile of shader map 0x000002A101173580
+[2017.05.31-22.22.10:548][206]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x000002A101173580, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.05.31-22.22.10:548][206]LogTemp:Display: Marking material as finished 0x000002A102624400
+[2017.05.31-22.22.10:552][206]LogTemp:Display: Finished compile of shader map 0x000002A102EFE080
+[2017.05.31-22.22.10:552][206]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A102EFE080, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.10:552][206]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.13:250][262]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.13:250][262]LogTemp:Display: Added material ShaderMap 0x000002A101170100 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.13:263][262]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A101170100
+[2017.05.31-22.22.13:263][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.14:972][299]LogTemp:Display: Finished compile of shader map 0x000002A101170100
+[2017.05.31-22.22.14:972][299]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A101170100, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.14:972][299]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.24:916][544]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.24:917][544]LogTemp:Display: Added material ShaderMap 0x000002A101D6A080 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.24:930][544]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A101D6A080
+[2017.05.31-22.22.24:930][544]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.26:523][594]LogTemp:Display: Finished compile of shader map 0x000002A101D6A080
+[2017.05.31-22.22.26:523][594]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A101D6A080, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.26:523][594]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.27:390][623]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.27:390][623]LogTemp:Display: Added material ShaderMap 0x000002A102EF1600 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.27:403][623]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A102EF1600
+[2017.05.31-22.22.27:403][623]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.28:974][674]LogTemp:Display: Finished compile of shader map 0x000002A102EF1600
+[2017.05.31-22.22.28:975][674]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A102EF1600, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.28:975][674]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.37:519][895]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.37:519][895]LogTemp:Display: Added material ShaderMap 0x000002A1039B1D00 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.37:532][895]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A1039B1D00
+[2017.05.31-22.22.37:533][895]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.37:537][895]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.37:537][895]LogTemp:Display: Added material ShaderMap 0x000002A12327D980 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.37:550][895]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A12327D980
+[2017.05.31-22.22.37:550][895]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.39:157][938]LogTemp:Display: Finished compile of shader map 0x000002A12327D980
+[2017.05.31-22.22.39:157][938]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A12327D980, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.39:157][938]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.39:527][948]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.39:527][948]LogTemp:Display: Added material ShaderMap 0x000002A100116E80 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.39:540][948]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A100116E80
+[2017.05.31-22.22.39:540][948]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.41:273][963]LogTemp:Display: Finished compile of shader map 0x000002A100116E80
+[2017.05.31-22.22.41:274][963]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A100116E80, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.41:274][963]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.46:910][123]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.46:910][123]LogTemp:Display: Added material ShaderMap 0x000002A1101EA400 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.46:924][123]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A1101EA400
+[2017.05.31-22.22.46:924][123]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.46:937][123]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.46:938][123]LogTemp:Display: Added material ShaderMap 0x000002A10264A400 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.46:954][123]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A10264A400
+[2017.05.31-22.22.46:954][123]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.47:123][129]LogTemp:Display: Finished compile of shader map 0x000002A1101EA400
+[2017.05.31-22.22.47:123][129]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A1101EA400, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.47:123][129]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.48:621][179]LogTemp:Display: Finished compile of shader map 0x000002A10264A400
+[2017.05.31-22.22.48:621][179]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A10264A400, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.48:621][179]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.50:057][259]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.50:058][259]LogTemp:Display: Added material ShaderMap 0x000002A1101E8480 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.50:071][259]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A1101E8480
+[2017.05.31-22.22.50:071][259]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.51:677][327]LogTemp:Display: Finished compile of shader map 0x000002A1101E8480
+[2017.05.31-22.22.51:677][327]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A1101E8480, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.51:677][327]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.54:413][404]LogMaterialEditor: Saving and Compiling material mat_decal_stain_02
+[2017.05.31-22.22.54:985][404]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.54:986][404]LogTemp:Display: Added material ShaderMap 0x000002A102157580 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.55:013][404]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A102157580
+[2017.05.31-22.22.55:013][404]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.55:062][404]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.55:063][404]LogTemp:Display: Added material ShaderMap 0x000002A101172080 with Material 0x000002A15C76D780 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.55:090][404]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A101172080
+[2017.05.31-22.22.55:093][404]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.22.55:094][404]LogTemp:Display: Added material ShaderMap 0x000002A102CBB200 with Material 0x000002A15C76D780 to ShaderMapsBeingCompiled
+[2017.05.31-22.22.55:120][404]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A102CBB200
+[2017.05.31-22.22.55:121][404]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.22.55:136][404]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.05.31-22.22.58:906][404]LogTemp:Display: Finished compile of shader map 0x000002A102CBB200
+[2017.05.31-22.22.58:906][404]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A102CBB200, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.58:906][404]LogTemp:Display: Marking material as finished 0x000002A15C76D780
+[2017.05.31-22.22.58:911][404]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.31-22.22.58:915][404]LogTemp:Display: Finished compile of shader map 0x000002A102157580
+[2017.05.31-22.22.58:915][404]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A102157580, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.22.58:915][404]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.22.58:979][404]LogSavePackage: Save=17.65ms
+[2017.05.31-22.22.58:980][404]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/mat_decal_stain_0296518593473FA3DA9A356296E3666E51.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset'
+[2017.05.31-22.22.58:983][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset
+[2017.05.31-22.23.03:016][456]LogMaterialEditor: Saving and Compiling material mat_decal_stain_02
+[2017.05.31-22.23.03:072][456]LogSavePackage: Save=8.01ms
+[2017.05.31-22.23.03:072][456]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/mat_decal_stain_0249AEC894440E0352732FA4AADB988DFE.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset'
+[2017.05.31-22.23.03:074][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset
+[2017.05.31-22.23.08:358][621]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.08:358][621]LogTemp:Display: Added material ShaderMap 0x000002A11462CF00 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.08:372][621]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11462CF00
+[2017.05.31-22.23.08:372][621]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.23.08:375][621]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.08:375][621]LogTemp:Display: Added material ShaderMap 0x000002A102157580 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.08:389][621]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A102157580
+[2017.05.31-22.23.08:389][621]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.23.10:257][658]LogTemp:Display: Finished compile of shader map 0x000002A102157580
+[2017.05.31-22.23.10:257][658]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A102157580, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.23.10:257][658]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.23.12:777][702]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.12:778][702]LogTemp:Display: Added material ShaderMap 0x000002A103797C80 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.12:790][702]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A103797C80
+[2017.05.31-22.23.12:790][702]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.23.14:380][736]LogTemp:Display: Finished compile of shader map 0x000002A103797C80
+[2017.05.31-22.23.14:380][736]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A103797C80, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.23.14:380][736]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.23.28:450][178]LogMaterialEditor: Saving and Compiling material mat_decal_stain_02
+[2017.05.31-22.23.29:003][178]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.29:004][178]LogTemp:Display: Added material ShaderMap 0x000002A11462D980 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.29:032][178]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11462D980
+[2017.05.31-22.23.29:033][178]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.23.29:067][178]LogTemp:Display: Removed shader map 0x000002A101172080 from material 0x000002A15C76D780
+[2017.05.31-22.23.29:075][178]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.29:076][178]LogTemp:Display: Added material ShaderMap 0x000002A103795D00 with Material 0x000002A15C76CB80 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.29:102][178]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A103795D00
+[2017.05.31-22.23.29:105][178]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.29:105][178]LogTemp:Display: Added material ShaderMap 0x000002A11D2F7200 with Material 0x000002A15C76CB80 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.29:127][178]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11D2F7200
+[2017.05.31-22.23.29:128][178]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.23.29:143][178]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.05.31-22.23.32:756][178]LogTemp:Display: Finished compile of shader map 0x000002A11D2F7200
+[2017.05.31-22.23.32:756][178]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11D2F7200, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.23.32:756][178]LogTemp:Display: Marking material as finished 0x000002A15C76CB80
+[2017.05.31-22.23.32:763][178]LogTemp:Display: Finished compile of shader map 0x000002A11462D980
+[2017.05.31-22.23.32:763][178]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11462D980, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.23.32:763][178]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.23.32:829][178]LogSavePackage: Save=16.50ms
+[2017.05.31-22.23.32:829][178]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/mat_decal_stain_0219BA7742478EA2E0A05482B23CAB59C4.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset'
+[2017.05.31-22.23.32:833][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset
+[2017.05.31-22.23.50:887][709]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.50:888][709]LogTemp:Display: Added material ShaderMap 0x000002A15F92D600 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.50:902][709]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A15F92D600
+[2017.05.31-22.23.50:902][709]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.23.50:928][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.05.31-22.23.50:929][709]LogTemp:Display: Added material ShaderMap 0x000002A115BFCF00 with Material 0x000002A12313E500 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.50:932][709]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x000002A115BFCF00
+[2017.05.31-22.23.52:544][790]LogTemp:Display: Finished compile of shader map 0x000002A15F92D600
+[2017.05.31-22.23.52:544][790]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A15F92D600, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.23.52:545][790]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.23.52:641][796]LogTemp:Display: Finished compile of shader map 0x000002A115BFCF00
+[2017.05.31-22.23.52:641][796]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x000002A115BFCF00, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.05.31-22.23.52:641][796]LogTemp:Display: Marking material as finished 0x000002A12313E500
+[2017.05.31-22.23.56:214][982]LogMaterialEditor: Saving and Compiling material mat_decal_stain_02
+[2017.05.31-22.23.56:767][982]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.56:768][982]LogTemp:Display: Added material ShaderMap 0x000002A115BFCB80 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.56:796][982]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A115BFCB80
+[2017.05.31-22.23.56:796][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.23.56:828][982]LogTemp:Display: Removed shader map 0x000002A103795D00 from material 0x000002A15C76CB80
+[2017.05.31-22.23.56:840][982]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.56:842][982]LogTemp:Display: Added material ShaderMap 0x000002A15F92EE80 with Material 0x000002A12323B880 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.56:870][982]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A15F92EE80
+[2017.05.31-22.23.56:872][982]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.23.56:873][982]LogTemp:Display: Added material ShaderMap 0x000002A1002F2E80 with Material 0x000002A12323B880 to ShaderMapsBeingCompiled
+[2017.05.31-22.23.56:893][982]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A1002F2E80
+[2017.05.31-22.23.56:895][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.23.56:910][982]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.05.31-22.24.00:544][982]LogTemp:Display: Finished compile of shader map 0x000002A1002F2E80
+[2017.05.31-22.24.00:544][982]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A1002F2E80, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.24.00:544][982]LogTemp:Display: Marking material as finished 0x000002A12323B880
+[2017.05.31-22.24.00:550][982]LogTemp:Display: Finished compile of shader map 0x000002A115BFCB80
+[2017.05.31-22.24.00:550][982]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A115BFCB80, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.24.00:550][982]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.24.00:612][982]LogSavePackage: Save=15.74ms
+[2017.05.31-22.24.00:612][982]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/mat_decal_stain_02D5061A1747ACFC82B374FCA7A9AB4888.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset'
+[2017.05.31-22.24.00:616][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset
+[2017.05.31-22.24.11:415][392]LogAIModule: Creating AISystem for world WHITEBOX_2
+[2017.05.31-22.24.17:028][392]LogSavePackage: Save=4.10ms
+[2017.05.31-22.24.17:028][392]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/basestain1250B4E2D431E2A4078796C84BA41B469.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/Textures/basestain1.uasset'
+[2017.05.31-22.24.17:030][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/Textures/basestain1.uasset
+[2017.05.31-22.24.17:031][392]Cmd: MAP LOAD FILE="../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.31-22.24.17:031][392]LightingResults: New page: Lighting Build
+[2017.05.31-22.24.17:033][392]LoadErrors: New page: Loading map: WHITEBOX_2.umap
+[2017.05.31-22.24.17:039][392]MapCheck: New page: Map Check
+[2017.05.31-22.24.17:039][392]LightingResults: New page: Lighting Build
+[2017.05.31-22.24.17:055][392]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.31-22.24.17:087][392]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.31-22.24.17:141][392]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.856ms to complete.
+[2017.05.31-22.24.17:141][392]LogFileHelpers: Loading map 'WHITEBOX_2' took 0.110
+[2017.05.31-22.24.32:462][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.24.34:333][263]Cmd: TRANSACTION UNDO
+[2017.05.31-22.24.34:333][263]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.31-22.24.34:349][263]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.24.34:350][263]LogTemp:Display: Added material ShaderMap 0x000002A163A53C80 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.24.34:362][263]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A163A53C80
+[2017.05.31-22.24.34:362][263]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.24.34:379][263]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.31-22.24.36:242][300]LogTemp:Display: Finished compile of shader map 0x000002A163A53C80
+[2017.05.31-22.24.36:242][300]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A163A53C80, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.24.36:242][300]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.25.00:247][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.25.02:099][797]LogEditorViewport: Clicking on Actor (LMB): DecalActor (decAL)
+[2017.05.31-22.25.03:114][855]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.25.06:591][ 61]Cmd: TRANSACTION UNDO
+[2017.05.31-22.25.06:591][ 61]LogEditorTransaction: Undo Scale Actors
+[2017.05.31-22.25.06:594][ 61]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.25.06:595][ 61]LogTemp:Display: Added material ShaderMap 0x000002A10BD3F900 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.25.06:609][ 61]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A10BD3F900
+[2017.05.31-22.25.06:610][ 61]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.25.08:438][ 97]LogTemp:Display: Finished compile of shader map 0x000002A10BD3F900
+[2017.05.31-22.25.08:438][ 97]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A10BD3F900, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.25.08:438][ 97]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.25.10:187][155]Cmd: TRANSACTION UNDO
+[2017.05.31-22.25.10:187][155]LogEditorTransaction: Undo Scale Actors
+[2017.05.31-22.25.10:191][155]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.25.10:191][155]LogTemp:Display: Added material ShaderMap 0x000002A11DB54100 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.25.10:204][155]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11DB54100
+[2017.05.31-22.25.10:204][155]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.25.11:801][186]LogTemp:Display: Finished compile of shader map 0x000002A11DB54100
+[2017.05.31-22.25.11:801][186]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11DB54100, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.25.11:801][186]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.25.17:941][502]LogEditorViewport: Clicking Background
+[2017.05.31-22.25.19:563][599]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.25.20:573][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.25.22:825][785]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.25.25:144][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.25.27:568][ 60]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.25.28:849][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.25.30:873][247]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.25.41:790][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.25.42:183][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.25.43:965][ 18]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.25.46:105][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.25.48:155][258]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.25.54:500][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.25.55:422][686]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.26.05:607][292]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.05.31-22.26.07:230][387]Cmd: DELETE
+[2017.05.31-22.26.07:231][387]Cmd: ACTOR DELETE
+[2017.05.31-22.26.07:231][387]LogEditorActor: Deleted Actor: PointLight
+[2017.05.31-22.26.07:243][387]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.31-22.26.09:969][551]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.26.13:086][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.26.15:258][861]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.26.16:675][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.26.22:171][220]LogSavePackage: Save=34.50ms
+[2017.05.31-22.26.22:171][220]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_28695CF6D40B737CBF9CD16A07A932BB2.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap'
+[2017.05.31-22.26.22:174][220]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap
+[2017.05.31-22.26.22:287][220]LogSavePackage: Save=57.19ms
+[2017.05.31-22.26.22:287][220]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2_BuiltDataF698A8C44406C3ABC78697B499A29364.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset'
+[2017.05.31-22.26.22:290][220]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset
+[2017.05.31-22.26.23:091][267]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.26.27:487][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_Backwall)
+[2017.05.31-22.26.29:486][641]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_3)
+[2017.05.31-22.26.32:775][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.26.37:949][139]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.26.38:685][180]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (mat_decal_stain_3)
+[2017.05.31-22.26.39:701][239]Cmd: DELETE
+[2017.05.31-22.26.39:701][239]Cmd: ACTOR DELETE
+[2017.05.31-22.26.39:702][239]LogEditorActor: Deleted Actor: DecalActor
+[2017.05.31-22.26.39:702][239]LogEditorActor: Deleted Actor: DecalActor
+[2017.05.31-22.26.39:713][239]LogEditorActor: Deleted 2 Actors (0.011 secs)
+[2017.05.31-22.26.41:490][346]Cmd: TRANSACTION UNDO
+[2017.05.31-22.26.41:490][346]LogEditorTransaction: Undo Delete Actors
+[2017.05.31-22.26.41:507][346]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.26.41:508][346]LogTemp:Display: Added material ShaderMap 0x000002A12327CF00 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.26.41:522][346]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A12327CF00
+[2017.05.31-22.26.41:522][346]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.26.42:426][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.26.43:399][382]LogTemp:Display: Finished compile of shader map 0x000002A12327CF00
+[2017.05.31-22.26.43:399][382]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A12327CF00, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.26.43:399][382]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.26.48:018][611]LogSavePackage: Save=36.32ms
+[2017.05.31-22.26.48:018][611]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_273C8924B4D1F9A37A4DDF989AE6317E4.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap'
+[2017.05.31-22.26.48:021][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap
+[2017.05.31-22.26.48:110][611]LogSavePackage: Save=43.82ms
+[2017.05.31-22.26.48:111][611]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2_BuiltDataD376535343A94C211B88B7ACFD93AF32.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset'
+[2017.05.31-22.26.48:112][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset
+[2017.05.31-22.26.49:330][683]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_4)
+[2017.05.31-22.27.03:833][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.27.05:188][623]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_4)
+[2017.05.31-22.27.08:968][844]Cmd: TRANSACTION UNDO
+[2017.05.31-22.27.08:969][844]LogEditorTransaction: Undo Move Actors
+[2017.05.31-22.27.08:986][844]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.27.08:986][844]LogTemp:Display: Added material ShaderMap 0x000002A11E051280 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.27.08:998][844]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11E051280
+[2017.05.31-22.27.08:999][844]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.27.10:807][879]LogTemp:Display: Finished compile of shader map 0x000002A11E051280
+[2017.05.31-22.27.10:807][879]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11E051280, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.27.10:807][879]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.27.13:072][971]Cmd: TRANSACTION UNDO
+[2017.05.31-22.27.13:072][971]LogEditorTransaction: Undo Move Actors
+[2017.05.31-22.27.13:075][971]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.27.13:076][971]LogTemp:Display: Added material ShaderMap 0x000002A102E47900 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.27.13:089][971]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A102E47900
+[2017.05.31-22.27.13:089][971]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.27.14:063][995]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_5)
+[2017.05.31-22.27.14:719][  6]LogTemp:Display: Finished compile of shader map 0x000002A102E47900
+[2017.05.31-22.27.14:719][  6]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A102E47900, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.27.14:719][  6]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.27.18:452][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.27.20:220][277]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_6)
+[2017.05.31-22.27.26:243][630]Cmd: TRANSACTION UNDO
+[2017.05.31-22.27.26:243][630]LogEditorTransaction: Undo Create Actor
+[2017.05.31-22.27.26:260][630]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.27.26:261][630]LogTemp:Display: Added material ShaderMap 0x000002A11DD8FC80 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.27.26:274][630]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11DD8FC80
+[2017.05.31-22.27.26:274][630]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.27.27:872][660]LogTemp:Display: Finished compile of shader map 0x000002A11DD8FC80
+[2017.05.31-22.27.27:872][660]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11DD8FC80, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.27.27:872][660]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.27.30:950][792]Cmd: TRANSACTION UNDO
+[2017.05.31-22.27.30:950][792]LogEditorTransaction: Undo Create Actor
+[2017.05.31-22.27.30:967][792]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.27.30:968][792]LogTemp:Display: Added material ShaderMap 0x000002A11DCB3200 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.27.30:981][792]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11DCB3200
+[2017.05.31-22.27.30:981][792]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.27.32:539][820]LogTemp:Display: Finished compile of shader map 0x000002A11DCB3200
+[2017.05.31-22.27.32:539][820]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11DCB3200, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.27.32:539][820]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.27.55:613][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.28.02:329][534]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_8)
+[2017.05.31-22.28.10:144][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.28.12:034][108]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2017.05.31-22.28.13:519][194]Cmd: DELETE
+[2017.05.31-22.28.13:519][194]Cmd: ACTOR DELETE
+[2017.05.31-22.28.13:519][194]LogEditorActor: Deleted Actor: PointLight
+[2017.05.31-22.28.13:531][194]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.31-22.28.19:338][540]Cmd: DELETE
+[2017.05.31-22.28.19:338][540]Cmd: ACTOR DELETE
+[2017.05.31-22.28.19:338][540]LogEditorActor: Deleted Actor: PointLight
+[2017.05.31-22.28.19:350][540]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.05.31-22.28.23:411][778]LogSavePackage: Save=40.84ms
+[2017.05.31-22.28.23:411][778]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_247AD5B004A6659A9180D45AEBC229FB3.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap'
+[2017.05.31-22.28.23:415][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap
+[2017.05.31-22.28.23:503][778]LogSavePackage: Save=43.66ms
+[2017.05.31-22.28.23:503][778]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2_BuiltData35FAE3254C0CD640697FDBBDDB2356A0.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset'
+[2017.05.31-22.28.23:506][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset
+[2017.05.31-22.28.29:035][ 33]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sm_room)
+[2017.05.31-22.28.30:967][100]LogSavePackage: Save=42.91ms
+[2017.05.31-22.28.30:967][100]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_20492766C4F5118B2D2F72A8144FFE0DC.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap'
+[2017.05.31-22.28.30:969][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap
+[2017.05.31-22.28.31:057][100]LogSavePackage: Save=44.04ms
+[2017.05.31-22.28.31:057][100]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2_BuiltData7764C6124D28EC0BA81B83AF980B66BA.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset'
+[2017.05.31-22.28.31:059][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset
+[2017.05.31-22.28.34:590][273]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_4)
+[2017.05.31-22.28.35:224][308]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (mat_decal_stain_5)
+[2017.05.31-22.28.35:926][348]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (mat_decal_stain_3)
+[2017.05.31-22.28.36:979][409]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.28.50:498][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.29.02:255][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.29.05:313][118]LogSavePackage: Save=40.96ms
+[2017.05.31-22.29.05:313][118]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2A2AD3EB94406545F24A9AFBDEB92A693.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap'
+[2017.05.31-22.29.05:315][118]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap
+[2017.05.31-22.29.05:401][118]LogSavePackage: Save=42.73ms
+[2017.05.31-22.29.05:401][118]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2_BuiltData1C6CFCF14AA664FE8D00749C5738C449.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset'
+[2017.05.31-22.29.05:403][118]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset
+[2017.05.31-22.29.06:031][154]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_4)
+[2017.05.31-22.29.06:687][189]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.29.08:310][284]LogEditorViewport: Clicking on Actor (LMB): DecalActor (mat_decal_stain_5)
+[2017.05.31-22.29.09:198][334]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (mat_decal_stain_4)
+[2017.05.31-22.29.10:030][381]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (mat_decal_stain_3)
+[2017.05.31-22.29.10:770][423]LogEditorViewport: Clicking on Actor (CTRL LMB): DecalActor (mat_decal_stain_02)
+[2017.05.31-22.29.12:008][495]Cmd: DELETE
+[2017.05.31-22.29.12:008][495]Cmd: ACTOR DELETE
+[2017.05.31-22.29.12:009][495]LogEditorActor: Deleted Actor: DecalActor
+[2017.05.31-22.29.12:009][495]LogEditorActor: Deleted Actor: DecalActor
+[2017.05.31-22.29.12:009][495]LogEditorActor: Deleted Actor: DecalActor
+[2017.05.31-22.29.12:009][495]LogEditorActor: Deleted Actor: DecalActor
+[2017.05.31-22.29.12:017][495]LogEditorActor: Deleted 4 Actors (0.009 secs)
+[2017.05.31-22.29.30:046][646]Cmd: TRANSACTION UNDO
+[2017.05.31-22.29.30:046][646]LogEditorTransaction: Undo Delete Actors
+[2017.05.31-22.29.30:065][646]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.29.30:066][646]LogTemp:Display: Added material ShaderMap 0x000002A11DBB9980 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.29.30:078][646]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A11DBB9980
+[2017.05.31-22.29.30:078][646]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.29.30:799][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sm_room)
+[2017.05.31-22.29.31:855][676]LogSavePackage: Save=68.97ms
+[2017.05.31-22.29.31:855][676]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_21C0CAFFA49381FEFDCD2989BAEC289C0.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap'
+[2017.05.31-22.29.31:863][676]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap
+[2017.05.31-22.29.31:980][676]LogSavePackage: Save=55.73ms
+[2017.05.31-22.29.31:980][676]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2_BuiltData22DD67964743431090FCDF9A43985A61.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset'
+[2017.05.31-22.29.31:982][676]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset
+[2017.05.31-22.29.32:065][676]LogTemp:Display: Finished compile of shader map 0x000002A11DBB9980
+[2017.05.31-22.29.32:065][676]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A11DBB9980, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.29.32:065][676]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.29.37:319][810]LogSavePackage: Save=41.86ms
+[2017.05.31-22.29.37:319][810]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2245AA9354A901E7C677DB6AC5F48E0FD.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap'
+[2017.05.31-22.29.37:321][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2.umap
+[2017.05.31-22.29.37:406][810]LogSavePackage: Save=43.12ms
+[2017.05.31-22.29.37:406][810]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/WHITEBOX_2_BuiltData418B773C4AA7054BBD06E787A371932B.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset'
+[2017.05.31-22.29.37:408][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Whiteboxing/Map/WHITEBOX_2_BuiltData.uasset
+[2017.05.31-22.29.42:235][992]LogMaterialEditor: Applying material mat_decal_stain_02
+[2017.05.31-22.29.42:789][992]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.29.42:790][992]LogTemp:Display: Added material ShaderMap 0x000002A189214800 with Material 0x000002A1038F5080 to ShaderMapsBeingCompiled
+[2017.05.31-22.29.42:817][992]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A189214800
+[2017.05.31-22.29.42:817][992]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.29.42:852][992]LogTemp:Display: Removed shader map 0x000002A15F92EE80 from material 0x000002A12323B880
+[2017.05.31-22.29.42:862][992]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.29.42:863][992]LogTemp:Display: Added material ShaderMap 0x000002A10E836780 with Material 0x000002A12323AB00 to ShaderMapsBeingCompiled
+[2017.05.31-22.29.42:892][992]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A10E836780
+[2017.05.31-22.29.42:895][992]LogMaterial: Missing cached shader map for material mat_decal_stain_02, compiling. 
+[2017.05.31-22.29.42:896][992]LogTemp:Display: Added material ShaderMap 0x000002A189493200 with Material 0x000002A12323AB00 to ShaderMapsBeingCompiled
+[2017.05.31-22.29.42:919][992]LogTemp:Display: Kicking off shader compilation for mat_decal_stain_02, GameThreadShaderMap 0x000002A189493200
+[2017.05.31-22.29.42:921][992]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.31-22.29.42:935][992]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.05.31-22.29.43:628][ 13]LogMaterialEditor: Saving and Compiling material mat_decal_stain_02
+[2017.05.31-22.29.46:644][ 13]LogTemp:Display: Finished compile of shader map 0x000002A189493200
+[2017.05.31-22.29.46:644][ 13]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A189493200, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.29.46:644][ 13]LogTemp:Display: Marking material as finished 0x000002A12323AB00
+[2017.05.31-22.29.46:654][ 13]LogTemp:Display: Finished compile of shader map 0x000002A189214800
+[2017.05.31-22.29.46:654][ 13]LogTemp:Display: Shader map mat_decal_stain_02 complete, GameThreadShaderMap 0x000002A189214800, marking material mat_decal_stain_02 as finished
+[2017.05.31-22.29.46:654][ 13]LogTemp:Display: Marking material as finished 0x000002A1038F5080
+[2017.05.31-22.29.46:720][ 13]LogSavePackage: Save=16.76ms
+[2017.05.31-22.29.46:720][ 13]LogSavePackage: Moving '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/mat_decal_stain_02439B73CB4594F62EFEBB469572C8E806.tmp' to '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset'
+[2017.05.31-22.29.46:724][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Meshes/Static_Meshes/Materials/mat_decal_stain_02.uasset
+[2017.05.31-22.29.51:286][204]LogTemp:Display: Removed shader map 0x000002A163EB4F00 from material 0x000002A1038F5080
+[2017.05.31-22.29.51:286][204]LogTemp:Display: Removed shader map 0x000002A1039B1D00 from material 0x000002A1038F5080
+[2017.05.31-22.29.51:286][204]LogTemp:Display: Removed shader map 0x000002A105708B80 from material 0x000002A1038F5080
+[2017.05.31-22.29.51:286][204]LogTemp:Display: Removed shader map 0x000002A10195CF00 from material 0x000002A1038F5080
+[2017.05.31-22.29.51:286][204]LogTemp:Display: Removed shader map 0x000002A11462CF00 from material 0x000002A1038F5080
+[2017.05.31-22.29.51:563][205]Cmd: QUIT_EDITOR
+[2017.05.31-22.29.51:603][205]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.31-22.29.51:628][205]LogExit: Preparing to exit.
+[2017.05.31-22.29.52:829][205]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/' was aborted.
+[2017.05.31-22.29.52:853][205]LogExit: Editor shut down
+[2017.05.31-22.29.52:853][205]LogExit: Transaction tracking system shut down
+[2017.05.31-22.29.52:861][205]LogTemp:Display: Removed shader map 0x000002A10E836780 from material 0x000002A12323AB00
+[2017.05.31-22.29.52:919][205]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.31-22.29.52:919][205]LogExit: Object subsystem successfully closed.
+[2017.05.31-22.29.52:944][205]LogD3D11RHI: Shutdown
+[2017.05.31-22.29.52:944][205]LogD3D11RHI: CleanupD3DDevice
+[2017.05.31-22.29.53:061][205]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.31-22.29.53:076][205]LogModuleManager: Shutting down and abandoning module MaterialEditor (504)
+[2017.05.31-22.29.53:076][205]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (502)
+[2017.05.31-22.29.53:076][205]LogModuleManager: Shutting down and abandoning module CrashTracker (500)
+[2017.05.31-22.29.53:076][205]LogModuleManager: Shutting down and abandoning module SceneOutliner (498)
+[2017.05.31-22.29.53:076][205]LogModuleManager: Shutting down and abandoning module AddContentDialog (496)
+[2017.05.31-22.29.53:076][205]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.31-22.29.53:077][205]LogModuleManager: Shutting down and abandoning module WidgetCarousel (495)
+[2017.05.31-22.29.53:077][205]LogModuleManager: Shutting down and abandoning module EditorWidgets (492)
+[2017.05.31-22.29.53:077][205]LogModuleManager: Shutting down and abandoning module CollectionManager (490)
+[2017.05.31-22.29.53:077][205]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Collections/' was aborted.
+[2017.05.31-22.29.53:077][205]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/Developers/azure/Collections/' was aborted.
+[2017.05.31-22.29.53:077][205]LogDirectoryWatcher: A directory notification for 'C:/Users/azure/Documents/GitHub/Enviro_1/Enviro1/Saved/Collections/' was aborted.
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module StatsViewer (488)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module FoliageEdit (486)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module LandscapeEditor (484)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (482)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module ActorPickerMode (480)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module GeometryMode (478)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module TextureAlignMode (476)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module BspMode (474)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module HardwareSurvey (472)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (470)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module AutomationWorker (468)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (466)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (464)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module PlacementMode (463)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (460)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (458)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module MfMediaFactory (456)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module MfMediaEditor (454)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (452)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (450)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (448)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module Media (447)
+[2017.05.31-22.29.53:078][205]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (444)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module CharacterAI (442)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module AudioCapture (440)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module SequenceRecorder (439)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module SmartSnapping (436)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module SessionServices (434)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module ViewportSnapping (432)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module ViewportInteraction (430)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module LogVisualizer (428)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module IntroTutorials (426)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (425)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (422)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (420)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (418)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (416)
+[2017.05.31-22.29.53:079][205]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (415)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (412)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (410)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module InputBindingEditor (408)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module NiagaraEditor (406)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module MergeActors (404)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module SizeMap (402)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module TreeMap (400)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module ReferenceViewer (398)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (396)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module LocalizationService (395)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module HardwareTargeting (392)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (390)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module UndoHistory (388)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module UserFeedback (386)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module XmlParser (384)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module Blutility (382)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (380)
+[2017.05.31-22.29.53:737][205]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (379)
+[2017.05.31-22.29.53:738][205]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (376)
+[2017.05.31-22.29.53:738][205]LogModuleManager: Shutting down and abandoning module SettingsEditor (374)
+[2017.05.31-22.29.53:738][205]LogModuleManager: Shutting down and abandoning module ProjectLauncher (372)
+[2017.05.31-22.29.53:738][205]LogModuleManager: Shutting down and abandoning module SessionFrontend (370)
+[2017.05.31-22.29.53:738][205]LogModuleManager: Shutting down and abandoning module ProfilerClient (368)
+[2017.05.31-22.29.53:738][205]LogModuleManager: Shutting down and abandoning module DeviceManager (366)
+[2017.05.31-22.29.53:738][205]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (365)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module AutomationController (362)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module AutomationWindow (360)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module Layers (358)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (356)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module DetailCustomizations (354)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module PackagesDialog (352)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module Persona (350)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module AnimGraph (349)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module Kismet (346)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module GraphEditor (344)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module ClassViewer (342)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module Toolbox (340)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module ModuleUI (338)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module MovieSceneTools (336)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module OutputLog (334)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module GammaUI (332)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module Documentation (330)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module Niagara (328)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (326)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module AnalyticsET (324)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module PortalServices (322)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module PortalRpc (320)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module MessagingRpc (318)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module AIModule (316)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module GameplayDebugger (315)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module AITestSuite (313)
+[2017.05.31-22.29.53:780][205]LogModuleManager: Shutting down and abandoning module ProfilerService (310)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module TaskGraph (308)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module SubstanceEditor (306)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.05.31-22.29.53:785][205]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.05.31-22.29.53:786][205]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.05.31-22.29.53:787][205]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.05.31-22.29.53:788][205]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.05.31-22.29.53:788][205]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.05.31-22.29.53:788][205]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.05.31-22.29.53:788][205]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.05.31-22.29.53:889][205]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module SubstanceCore (214)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.31-22.29.53:989][205]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.31-22.29.53:992][205]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.31-22.29.53:992][205]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.31-22.29.53:992][205]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.31-22.29.53:992][205]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.31-22.29.53:992][205]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.31-22.29.53:992][205]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.31-22.29.54:158][205]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.31-22.29.54:158][205]LogDirectoryWatcher: A directory notification for '../../../../../../Users/azure/Documents/GitHub/Enviro_1/Enviro1/Content/' was aborted.
+[2017.05.31-22.29.54:158][205]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.31-22.29.54:158][205]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.31-22.29.54:158][205]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.31-22.29.54:158][205]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.31-22.29.54:158][205]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.31-22.29.54:158][205]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.31-22.29.54:159][205]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.31-22.29.54:159][205]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.31-22.29.54:159][205]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.31-22.29.54:159][205]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.31-22.29.54:217][205]LogDerivedDataCache: Shutdown
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.31-22.29.54:217][205]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.31-22.29.54:218][205]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.31-22.29.54:218][205]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.31-22.29.54:218][205]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.31-22.29.54:218][205]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5145C100-450F-4D8D-FFED-92AC71DBFE04%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=f87b7eb244207085343e53a8f93190ff%7C4e59904afcc6489195f8095de720415d%7C9fa60dca-0af5-4e86-a8a7-0177cf4232e6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.31-22.29.54:224][205]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.31-22.29.54:225][205]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.31-22.29.54:225][205]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.31-22.29.54:225][205]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.31-22.29.54:225][205]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.31-22.29.54:225][205]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.31-22.29.54:226][205]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.31-22.29.54:227][205]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.31-22.29.54:228][205]LogExit: Exiting.
+[2017.05.31-22.29.54:240][205]Log file closed, 05/31/17 16:29:54
